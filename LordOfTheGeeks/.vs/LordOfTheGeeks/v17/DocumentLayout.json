@@ -1,0 +1,787 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\createtriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:createtriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\createtriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:createtriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\cloudsyncservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:cloudsyncservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editsingletriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editsingletriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MeXinuX\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\lordofthegeeks.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:lordofthegeeks.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\rankingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:rankingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\createnewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:createnewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\newspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:newspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editsinglenewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editsinglenewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\models\\trivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:models\\trivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\triviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:triviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editsingletriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editsingletriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\deletetriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:deletetriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\deletetriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:deletetriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\rankingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:rankingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\triviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:triviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\admindashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:admindashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\admindashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:admindashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\models\\resultadotrivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:models\\resultadotrivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editnewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editnewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\rankingpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:rankingpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\lordofthegeeks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:lordofthegeeks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\edittriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:edittriviapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\edittriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:edittriviapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editsinglenewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editsinglenewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\createnewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:createnewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\editnewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:editnewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MeXinuX\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\deletenewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:deletenewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\deletenewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:deletenewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|c:\\users\\mexinux\\documents\\lordofthegeeks\\lordofthegeeks\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{FF94370A-7FE6-4DF5-945F-89605ACAD9EA}|LordOfTheGeeks.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTriviaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateTriviaPage.xaml",
+              "RelativeDocumentMoniker": "CreateTriviaPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateTriviaPage.xaml",
+              "RelativeToolTip": "CreateTriviaPage.xaml",
+              "ViewState": "AgIAABQAAAAAbWZmZmYkwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T19:52:57.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "RegisterPage.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:09:59.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:25:07.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T05:24:47.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTriviaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateTriviaPage.xaml.cs",
+              "RelativeDocumentMoniker": "CreateTriviaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateTriviaPage.xaml.cs",
+              "RelativeToolTip": "CreateTriviaPage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAQAAAAApwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T19:57:39.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-06T22:20:47.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T05:24:51.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAA1wCgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:54:59.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAB8AAABA+/////8PwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:55:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CloudSyncService.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CloudSyncService.cs",
+              "RelativeDocumentMoniker": "CloudSyncService.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CloudSyncService.cs",
+              "RelativeToolTip": "CloudSyncService.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAgwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:44:15.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditSingleTriviaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleTriviaPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditSingleTriviaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleTriviaPage.xaml.cs",
+              "RelativeToolTip": "EditSingleTriviaPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:40:27.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\MeXinuX\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAHcDAAAAAAAAAAASwIQDAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-13T11:08:09.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditSingleNewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleNewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditSingleNewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleNewsPage.xaml.cs",
+              "RelativeToolTip": "EditSingleNewsPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAzszMzMwnwH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:05:49.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RankingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml.cs",
+              "RelativeDocumentMoniker": "RankingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml.cs",
+              "RelativeToolTip": "RankingPage.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwCgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:24:08.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LordOfTheGeeks",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\LordOfTheGeeks.csproj",
+              "RelativeDocumentMoniker": "LordOfTheGeeks.csproj",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\LordOfTheGeeks.csproj",
+              "RelativeToolTip": "LordOfTheGeeks.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T21:24:03.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPwAAAAAAAAAAAASwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-09T22:39:24.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateNewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateNewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "CreateNewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateNewsPage.xaml.cs",
+              "RelativeToolTip": "CreateNewsPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAANjMzMzMmwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:03:24.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:53:32.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\NewsPage.xaml",
+              "RelativeDocumentMoniker": "NewsPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\NewsPage.xaml",
+              "RelativeToolTip": "NewsPage.xaml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T04:58:12.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TriviaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\TriviaPage.xaml.cs",
+              "RelativeDocumentMoniker": "TriviaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\TriviaPage.xaml.cs",
+              "RelativeToolTip": "TriviaPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAMDMzMzP7v5IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:14:18.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\NewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "NewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\NewsPage.xaml.cs",
+              "RelativeToolTip": "NewsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T21:00:47.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Noticia.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Noticia.cs",
+              "RelativeDocumentMoniker": "Models\\Noticia.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Noticia.cs",
+              "RelativeToolTip": "Models\\Noticia.cs",
+              "ViewState": "AgIAAAYAAAAAMTMzMzMJwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:06:27.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Trivia.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Trivia.cs",
+              "RelativeDocumentMoniker": "Models\\Trivia.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\Trivia.cs",
+              "RelativeToolTip": "Models\\Trivia.cs",
+              "ViewState": "AgIAAAkAAABgmJmZmZklwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:53:06.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditSingleTriviaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleTriviaPage.xaml",
+              "RelativeDocumentMoniker": "EditSingleTriviaPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleTriviaPage.xaml",
+              "RelativeToolTip": "EditSingleTriviaPage.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T20:40:14.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteTriviaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteTriviaPage.xaml.cs",
+              "RelativeDocumentMoniker": "DeleteTriviaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteTriviaPage.xaml.cs",
+              "RelativeToolTip": "DeleteTriviaPage.xaml.cs",
+              "ViewState": "AgIAADEAAACwlpmZmZkrwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:21:16.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteTriviaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteTriviaPage.xaml",
+              "RelativeDocumentMoniker": "DeleteTriviaPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteTriviaPage.xaml",
+              "RelativeToolTip": "DeleteTriviaPage.xaml",
+              "ViewState": "AgIAACUAAADAamZmZmYUwC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T20:20:34.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RankingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml",
+              "RelativeDocumentMoniker": "RankingPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml",
+              "RelativeToolTip": "RankingPage.xaml",
+              "ViewState": "AgIAACoAAADgMzMzMzMvwDQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T21:52:49.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:21:20.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TriviaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\TriviaPage.xaml",
+              "RelativeDocumentMoniker": "TriviaPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\TriviaPage.xaml",
+              "RelativeToolTip": "TriviaPage.xaml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAlwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T09:04:36.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminDashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AdminDashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "AdminDashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AdminDashboardPage.xaml.cs",
+              "RelativeToolTip": "AdminDashboardPage.xaml.cs",
+              "ViewState": "AgIAAAkAAACgmZmZmRkwwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:07:16.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminDashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AdminDashboardPage.xaml",
+              "RelativeDocumentMoniker": "AdminDashboardPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\AdminDashboardPage.xaml",
+              "RelativeToolTip": "AdminDashboardPage.xaml",
+              "ViewState": "AgIAAFwAAABAzczMzMwYwG0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T07:23:33.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ResultadoTrivia.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\ResultadoTrivia.cs",
+              "RelativeDocumentMoniker": "Models\\ResultadoTrivia.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Models\\ResultadoTrivia.cs",
+              "RelativeToolTip": "Models\\ResultadoTrivia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:06:11.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditNewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditNewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditNewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditNewsPage.xaml.cs",
+              "RelativeToolTip": "EditNewsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:04:42.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RegisterPage.xaml",
+              "RelativeToolTip": "RegisterPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T05:09:48.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RankingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml",
+              "RelativeDocumentMoniker": "RankingPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\RankingPage.xaml",
+              "RelativeToolTip": "RankingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T09:43:31.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Microsoft.Android.Sdk.Tooling.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "ViewState": "AgIAAAwAAACAmZmZmZklwD0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-09T22:42:30.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LordOfTheGeeks.csproj",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\LordOfTheGeeks.csproj",
+              "RelativeDocumentMoniker": "LordOfTheGeeks.csproj",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\LordOfTheGeeks.csproj",
+              "RelativeToolTip": "LordOfTheGeeks.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T21:14:03.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAACABAAAAY2ZmZmYswP8BAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-09T21:41:43.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EditTriviaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditTriviaPage.xaml",
+              "RelativeDocumentMoniker": "EditTriviaPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditTriviaPage.xaml",
+              "RelativeToolTip": "EditTriviaPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T20:04:41.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EditTriviaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditTriviaPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditTriviaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditTriviaPage.xaml.cs",
+              "RelativeToolTip": "EditTriviaPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:39:45.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateNewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateNewsPage.xaml",
+              "RelativeDocumentMoniker": "CreateNewsPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\CreateNewsPage.xaml",
+              "RelativeToolTip": "CreateNewsPage.xaml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T06:59:58.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditNewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditNewsPage.xaml",
+              "RelativeDocumentMoniker": "EditNewsPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditNewsPage.xaml",
+              "RelativeToolTip": "EditNewsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T20:31:03.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EditSingleNewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleNewsPage.xaml",
+              "RelativeDocumentMoniker": "EditSingleNewsPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\EditSingleNewsPage.xaml",
+              "RelativeToolTip": "EditSingleNewsPage.xaml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T20:06:50.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\MeXinuX\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-08T21:03:39.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeleteNewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteNewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DeleteNewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteNewsPage.xaml.cs",
+              "RelativeToolTip": "DeleteNewsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T06:35:32.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DeleteNewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteNewsPage.xaml",
+              "RelativeDocumentMoniker": "DeleteNewsPage.xaml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\DeleteNewsPage.xaml",
+              "RelativeToolTip": "DeleteNewsPage.xaml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T06:21:52.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T20:15:23.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\MeXinuX\\Documents\\LordOfTheGeeks\\LordOfTheGeeks\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-07T07:05:46.343Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

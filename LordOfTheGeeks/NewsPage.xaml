@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.NewsPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="SidebarColumn" Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Barra lateral -->
+        <Grid Grid.Column="0" x:Name="Sidebar" BackgroundColor="{StaticResource Secondary}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Botón de alternancia -->
+            <Button x:Name="ToggleSidebarButton"
+                    Text="≡"
+                    FontSize="20"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    CornerRadius="20"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="5"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="{StaticResource Background}"
+                    Clicked="OnToggleSidebarClicked"/>
+
+            <!-- Contenido de la barra lateral -->
+            <VerticalStackLayout Grid.Row="1" x:Name="SidebarContent">
+                <Label x:Name="CategoriesTitle"
+                       Text="Categorías" 
+                       FontSize="20" 
+                       TextColor="{StaticResource TextPrimary}" 
+                       HorizontalOptions="Center"
+                       Margin="10"/>
+
+                <CollectionView x:Name="CategoryFilter" 
+                              SelectionMode="Single" 
+                              BackgroundColor="Transparent">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="10" Margin="5" BackgroundColor="{StaticResource Primary}">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="10" />
+                                </Border.StrokeShape>
+                                <Label Text="{Binding}" 
+                                       TextColor="{StaticResource Background}" 
+                                       HorizontalOptions="Center"/>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+
+            <!-- Botones de navegación -->
+            <VerticalStackLayout Grid.Row="2" Spacing="10" Margin="10">
+                <Button Text="¡Jugar Trivias!"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="{StaticResource Background}"
+                        CornerRadius="10"
+                        Clicked="OnTriviasClicked"/>
+
+                <Button Text="Ver Ranking"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="{StaticResource Background}"
+                        CornerRadius="10"
+                        Clicked="OnRankingClicked"/>
+            </VerticalStackLayout>
+        </Grid>
+
+        <!-- Lista de noticias -->
+        <CollectionView Grid.Column="1" x:Name="NewsList" Margin="10" BackgroundColor="Transparent" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="10" Padding="10" BackgroundColor="{StaticResource Secondary}" Stroke="{StaticResource Primary}" StrokeThickness="1">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <VerticalStackLayout Spacing="10">
+                            <!-- Imagen -->
+                            <Image Source="{Binding ImagenOpcional}" HeightRequest="150" Aspect="AspectFill" IsVisible="{Binding ImagenOpcional, Converter={StaticResource NullToBoolConverter}}" />
+
+                            <!-- Título -->
+                            <Label Text="{Binding Titulo}" FontSize="18" TextColor="{StaticResource TextPrimary}" />
+
+                            <!-- Categoría -->
+                            <Label Text="{Binding Categoria}" FontSize="14" TextColor="{StaticResource TextSecondary}" />
+
+                            <!-- Botón -->
+                            <Button Text="VER MÁS" 
+                            BackgroundColor="{StaticResource Primary}" 
+                            TextColor="{StaticResource Background}" 
+                            CornerRadius="15" 
+                            Clicked="OnViewMoreClicked" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.EditSingleTriviaPage"
+             Title="Editar Trivia"
+             BackgroundColor="{StaticResource Background}">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label Text="Editar Trivia"
+                   FontSize="28"
+                   TextColor="{StaticResource Primary}"
+                   HorizontalOptions="Center"/>
+
+            <Border BackgroundColor="{StaticResource Secondary}"
+                    Stroke="{StaticResource Primary}"
+                    StrokeThickness="2"
+                    Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="15">
+                    <!-- Selector de saga -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Saga" TextColor="{StaticResource TextPrimary}"/>
+                        <Picker x:Name="SagaPicker"
+                                Title="Seleccione una saga"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextSecondary}"/>
+                    </VerticalStackLayout>
+
+                    <!-- Campo de pregunta -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Pregunta" TextColor="{StaticResource TextPrimary}"/>
+                        <Editor x:Name="QuestionEditor"
+                                HeightRequest="100"
+                                AutoSize="TextChanges"
+                                TextColor="{StaticResource TextPrimary}"/>
+                    </VerticalStackLayout>
+
+                    <!-- Respuesta correcta -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Respuesta Correcta (Opción A)" 
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Entry x:Name="CorrectAnswerEntry"
+                               TextColor="{StaticResource TextPrimary}"/>
+                    </VerticalStackLayout>
+
+                    <!-- Respuestas incorrectas -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Respuestas Incorrectas" 
+                               TextColor="{StaticResource TextPrimary}"/>
+
+                        <Entry x:Name="WrongAnswer1Entry"
+                               Placeholder="Opción B"
+                               TextColor="{StaticResource TextPrimary}"
+                               Margin="0,0,0,5"/>
+
+                        <Entry x:Name="WrongAnswer2Entry"
+                               Placeholder="Opción C"
+                               TextColor="{StaticResource TextPrimary}"
+                               Margin="0,0,0,5"/>
+
+                        <Entry x:Name="WrongAnswer3Entry"
+                               Placeholder="Opción D"
+                               TextColor="{StaticResource TextPrimary}"/>
+                    </VerticalStackLayout>
+
+                    <!-- Botón guardar -->
+                    <Button Text="Guardar Cambios"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="{StaticResource Background}"
+                            CornerRadius="10"
+                            HeightRequest="50"
+                            Margin="0,20,0,0"
+                            Clicked="OnSaveChangesClicked"/>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

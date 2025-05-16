@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.AdminDashboardPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Encabezado -->
+        <Border Grid.Row="0" 
+                BackgroundColor="{StaticResource Secondary}"
+                Margin="0,0,0,20">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="0,0,20,20"/>
+            </Border.StrokeShape>
+            <VerticalStackLayout Padding="20">
+                <Label Text="Panel de Administración"
+                       FontSize="28"
+                       TextColor="{StaticResource Primary}"
+                       HorizontalOptions="Center"/>
+                <Label Text="The Lord of the Geeks"
+                       FontSize="18"
+                       TextColor="{StaticResource TextSecondary}"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Dashboard -->
+        <ScrollView Grid.Row="1">
+            <Grid Padding="20" RowSpacing="20" ColumnSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Sección de Noticias -->
+                <Border Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="{StaticResource Secondary}"
+                        Stroke="{StaticResource Primary}"
+                        StrokeThickness="2"
+                        Margin="5">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15"/>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="20" Spacing="15">
+                        <Label Text="Gestión de Noticias"
+                               FontSize="22"
+                               TextColor="{StaticResource Primary}"
+                               HorizontalOptions="Center"/>
+
+                        <Button Text="Crear Noticia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnCreateNewsClicked"/>
+
+                        <Button Text="Modificar Noticia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnEditNewsClicked"/>
+
+                        <Button Text="Eliminar Noticia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnDeleteNewsClicked"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Sección de Trivias -->
+                <Border Grid.Row="0" Grid.Column="1"
+                        BackgroundColor="{StaticResource Secondary}"
+                        Stroke="{StaticResource Primary}"
+                        StrokeThickness="2"
+                        Margin="5">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15"/>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Padding="20" Spacing="15">
+                        <Label Text="Gestión de Trivias"
+                               FontSize="22"
+                               TextColor="{StaticResource Primary}"
+                               HorizontalOptions="Center"/>
+
+                        <Button Text="Crear Trivia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnCreateTriviaClicked"/>
+
+                        <Button Text="Modificar Trivia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnEditTriviaClicked"/>
+
+                        <Button Text="Eliminar Trivia"
+                                BackgroundColor="{StaticResource Primary}"
+                                TextColor="{StaticResource Background}"
+                                CornerRadius="10"
+                                Clicked="OnDeleteTriviaClicked"/>
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

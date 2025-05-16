@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.RankingPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="SidebarColumn" Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Barra lateral -->
+        <Grid Grid.Column="0" x:Name="Sidebar" BackgroundColor="{StaticResource Secondary}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Botón de alternancia -->
+            <Button x:Name="ToggleSidebarButton"
+                    Text="≡"
+                    FontSize="20"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    CornerRadius="20"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="5"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="{StaticResource Background}"
+                    Clicked="OnToggleSidebarClicked"/>
+
+            <!-- Todo el contenido de la barra lateral en un contenedor -->
+            <VerticalStackLayout Grid.Row="1" x:Name="SidebarContent" Spacing="20" Padding="10">
+                <Label Text="Ranking Global" 
+                       FontSize="24" 
+                       TextColor="{StaticResource TextPrimary}" 
+                       HorizontalOptions="Center"/>
+
+                <!-- Menú de Navegación -->
+                <VerticalStackLayout Spacing="10" Margin="0,20,0,0">
+                    <Button Text="Noticias"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="{StaticResource Background}"
+                            CornerRadius="10"
+                            Clicked="OnNewsClicked"/>
+
+                    <Button Text="Trivias"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="{StaticResource Background}"
+                            CornerRadius="10"
+                            Clicked="OnTriviasClicked"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+
+        <!-- Tabla de Ranking -->
+        <VerticalStackLayout Grid.Column="1" Padding="20">
+            <!-- Encabezado -->
+            <Border BackgroundColor="{StaticResource Primary}"
+                    Margin="0,0,0,10"
+                    StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Grid Padding="20,10" ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Posición" 
+                           Grid.Column="0"
+                           TextColor="{StaticResource Background}"
+                           FontSize="18"
+                           FontAttributes="Bold"/>
+                    <Label Text="Usuario" 
+                           Grid.Column="1"
+                           TextColor="{StaticResource Background}"
+                           FontSize="18"
+                           FontAttributes="Bold"/>
+                    <Label Text="XP" 
+                           Grid.Column="2"
+                           TextColor="{StaticResource Background}"
+                           FontSize="18"
+                           FontAttributes="Bold"/>
+                </Grid>
+            </Border>
+
+            <!-- Lista de Rankings -->
+            <CollectionView x:Name="RankingList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BackgroundColor="{StaticResource Secondary}"
+                                Margin="0,5"
+                                StrokeThickness="0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10"/>
+                            </Border.StrokeShape>
+                            <Grid Padding="20,10" ColumnSpacing="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Position}" 
+                                       Grid.Column="0"
+                                       TextColor="{StaticResource TextPrimary}"
+                                       FontSize="16"/>
+                                <Label Text="{Binding Username}" 
+                                       Grid.Column="1"
+                                       TextColor="{StaticResource TextPrimary}"
+                                       FontSize="16"/>
+                                <Label Text="{Binding XP}" 
+                                       Grid.Column="2"
+                                       TextColor="{StaticResource Primary}"
+                                       FontSize="16"
+                                       FontAttributes="Bold"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.EditSingleNewsPage"
+             BackgroundColor="{StaticResource Background}"
+             Title="Editar Noticia">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <!-- Título -->
+            <Label Text="Editar Noticia"
+                   FontSize="28"
+                   TextColor="{StaticResource Primary}"
+                   HorizontalOptions="Center"/>
+
+            <!-- Formulario -->
+            <Border BackgroundColor="{StaticResource Secondary}"
+                    Stroke="{StaticResource Primary}"
+                    StrokeThickness="2"
+                    Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="15">
+                    <!-- Campo de título -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Título"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Entry x:Name="TitleEntry"
+                               Placeholder="Ingrese el título de la noticia"
+                               TextColor="{StaticResource TextPrimary}"
+                               PlaceholderColor="{StaticResource TextSecondary}"
+                               BackgroundColor="Transparent"/>
+                    </VerticalStackLayout>
+
+                    <!-- Selector de categoría -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Categoría"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Picker x:Name="CategoryPicker"
+                                Title="Seleccione una categoría"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextSecondary}"
+                                BackgroundColor="Transparent"/>
+                    </VerticalStackLayout>
+
+                    <!-- Campo de contenido -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Contenido"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Editor x:Name="ContentEditor"
+                                Placeholder="Ingrese el contenido de la noticia"
+                                TextColor="{StaticResource TextPrimary}"
+                                PlaceholderColor="{StaticResource TextSecondary}"
+                                BackgroundColor="Transparent"
+                                HeightRequest="200"
+                                AutoSize="TextChanges"/>
+                    </VerticalStackLayout>
+
+                    <!-- Selector de imagen -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Imagen (Opcional)"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Grid ColumnDefinitions="*,Auto">
+                            <Entry x:Name="ImagePathEntry"
+                                   IsEnabled="False"
+                                   Placeholder="Ninguna imagen seleccionada"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   PlaceholderColor="{StaticResource TextSecondary}"
+                                   BackgroundColor="Transparent"
+                                   Grid.Column="0"/>
+                            <Button Text="Cambiar Imagen"
+                                    BackgroundColor="{StaticResource Primary}"
+                                    TextColor="{StaticResource Background}"
+                                    CornerRadius="10"
+                                    Clicked="OnSelectImageClicked"
+                                    Grid.Column="1"/>
+                        </Grid>
+                        <Image x:Name="PreviewImage"
+                               HeightRequest="200"
+                               Aspect="AspectFit"/>
+                    </VerticalStackLayout>
+
+                    <!-- Fecha actual (solo mostrar) -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Última modificación"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Label x:Name="DateLabel"
+                               TextColor="{StaticResource TextPrimary}"/>
+                    </VerticalStackLayout>
+
+                    <!-- Botón guardar cambios -->
+                    <Button Text="Guardar Cambios"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="{StaticResource Background}"
+                            CornerRadius="10"
+                            HeightRequest="50"
+                            Margin="0,20,0,0"
+                            Clicked="OnSaveChangesClicked"/>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

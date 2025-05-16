@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.RegisterPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+
+            <Label 
+                Text="Registro de Usuario"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="28"
+                TextColor="{StaticResource TextPrimary}"
+                HorizontalOptions="Center" />
+
+            <Border BackgroundColor="{StaticResource Secondary}" Stroke="{StaticResource Primary}" StrokeThickness="2" Padding="15">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10" />
+                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="15">
+                    <Entry 
+                        x:Name="UsernameEntry"
+                        Placeholder="Correo electrónico o usuario"
+                        PlaceholderColor="{StaticResource TextSecondary}"
+                        TextColor="{StaticResource TextPrimary}"
+                        BackgroundColor="Transparent"/>
+
+                    <Entry 
+                        x:Name="PasswordEntry"
+                        Placeholder="Contraseña"
+                        PlaceholderColor="{StaticResource TextSecondary}"
+                        IsPassword="True"
+                        TextColor="{StaticResource TextPrimary}"
+                        BackgroundColor="Transparent"/>
+
+                    <Button 
+                        x:Name="RegisterButton"
+                        Text="Registrarse"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="{StaticResource Background}"
+                        CornerRadius="20"
+                        Clicked="OnRegisterClicked"/>
+
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.CreateTriviaPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <!-- Título -->
+            <Label Text="Crear Nueva Trivia"
+                   FontSize="28"
+                   TextColor="{StaticResource Primary}"
+                   HorizontalOptions="Center"/>
+
+            <!-- Formulario -->
+            <Border BackgroundColor="{StaticResource Secondary}"
+                    Stroke="{StaticResource Primary}"
+                    StrokeThickness="2"
+                    Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="15">
+                    <!-- Selector de saga -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Categorias"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Picker x:Name="SagaPicker"
+                                Title="Seleccione una categoria"
+                                TextColor="{StaticResource TextPrimary}"
+                                TitleColor="{StaticResource TextSecondary}"
+                                BackgroundColor="Transparent"/>
+                    </VerticalStackLayout>
+
+                    <!-- Campo de pregunta -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Pregunta"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Editor x:Name="QuestionEditor"
+                                Placeholder="Ingrese la pregunta"
+                                TextColor="{StaticResource TextPrimary}"
+                                PlaceholderColor="{StaticResource TextSecondary}"
+                                BackgroundColor="Transparent"
+                                HeightRequest="100"
+                                AutoSize="TextChanges"/>
+                    </VerticalStackLayout>
+
+                    <!-- Respuesta correcta -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Respuesta Correcta"
+                               TextColor="{StaticResource TextPrimary}"/>
+                        <Entry x:Name="CorrectAnswerEntry"
+                               Placeholder="Ingrese la respuesta correcta"
+                               TextColor="{StaticResource TextPrimary}"
+                               PlaceholderColor="{StaticResource TextSecondary}"
+                               BackgroundColor="Transparent"/>
+                    </VerticalStackLayout>
+
+                    <!-- Respuestas incorrectas -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Respuestas Incorrectas"
+                               TextColor="{StaticResource TextPrimary}"/>
+
+                        <Entry x:Name="WrongAnswer1Entry"
+                               Placeholder="Respuesta incorrecta 1"
+                               TextColor="{StaticResource TextPrimary}"
+                               PlaceholderColor="{StaticResource TextSecondary}"
+                               BackgroundColor="Transparent"
+                               Margin="0,0,0,5"/>
+
+                        <Entry x:Name="WrongAnswer2Entry"
+                               Placeholder="Respuesta incorrecta 2"
+                               TextColor="{StaticResource TextPrimary}"
+                               PlaceholderColor="{StaticResource TextSecondary}"
+                               BackgroundColor="Transparent"
+                               Margin="0,0,0,5"/>
+
+                        <Entry x:Name="WrongAnswer3Entry"
+                               Placeholder="Respuesta incorrecta 3"
+                               TextColor="{StaticResource TextPrimary}"
+                               PlaceholderColor="{StaticResource TextSecondary}"
+                               BackgroundColor="Transparent"/>
+                    </VerticalStackLayout>
+
+                    <!-- Botón crear -->
+                    <Button Text="Crear Trivia"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="{StaticResource Background}"
+                            CornerRadius="10"
+                            HeightRequest="50"
+                            Margin="0,20,0,0"
+                            Clicked="OnCreateTriviaClicked"/>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,127 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LordOfTheGeeks
+build_property.ProjectDir = C:\Users\MeXinuX\Documents\LordOfTheGeeks\LordOfTheGeeks\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/AdminDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AdminDashboardPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/CreateNewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.CreateNewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CreateNewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CreateNewsPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/CreateTriviaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.CreateTriviaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CreateTriviaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CreateTriviaPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/DeleteNewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.DeleteNewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DeleteNewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DeleteNewsPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/DeleteTriviaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.DeleteTriviaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DeleteTriviaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DeleteTriviaPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/EditNewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.EditNewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditNewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditNewsPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/EditSingleNewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.EditSingleNewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditSingleNewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditSingleNewsPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/EditSingleTriviaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.EditSingleTriviaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditSingleTriviaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditSingleTriviaPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/EditTriviaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.EditTriviaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditTriviaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditTriviaPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/NewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.NewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NewsPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/RankingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.RankingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RankingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RankingPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/MeXinuX/Documents/LordOfTheGeeks/LordOfTheGeeks/TriviaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LordOfTheGeeks.TriviaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TriviaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TriviaPage.xaml

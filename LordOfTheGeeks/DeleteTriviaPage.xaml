@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LordOfTheGeeks.DeleteTriviaPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Título -->
+        <Label Text="Eliminar Trivia"
+               Grid.Row="0"
+               FontSize="28"
+               TextColor="{StaticResource Primary}"
+               HorizontalOptions="Center"
+               Margin="0,20"/>
+
+        <!-- Lista de Trivias -->
+        <CollectionView Grid.Row="1" 
+                      x:Name="TriviaList"
+                      Margin="20">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="0,10" 
+                            BackgroundColor="{StaticResource Secondary}"
+                            Stroke="{StaticResource Primary}"
+                            StrokeThickness="1">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10"/>
+                        </Border.StrokeShape>
+                        <Grid RowDefinitions="Auto,Auto,Auto" 
+                              Padding="15" 
+                              RowSpacing="10">
+
+                            <!-- Saga -->
+                            <Label Grid.Row="0"
+                                   Text="{Binding Saga}"
+                                   TextColor="{StaticResource TextSecondary}"
+                                   FontSize="14"/>
+
+                            <!-- Pregunta -->
+                            <Label Grid.Row="1"
+                                   Text="{Binding Pregunta}"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"/>
+
+                            <!-- Botón Eliminar -->
+                            <Button Grid.Row="2"
+                                    Text="Eliminar"
+                                    BackgroundColor="{StaticResource Primary}"
+                                    TextColor="{StaticResource Background}"
+                                    CornerRadius="10"
+                                    Clicked="OnDeleteClicked"
+                                    CommandParameter="{Binding .}"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <!-- Mensaje cuando no hay trivias -->
+            <CollectionView.EmptyView>
+                <VerticalStackLayout HorizontalOptions="Center" 
+                                   VerticalOptions="Center">
+                    <Label Text="No hay trivias disponibles"
+                           TextColor="{StaticResource TextPrimary}"
+                           FontSize="18"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>
